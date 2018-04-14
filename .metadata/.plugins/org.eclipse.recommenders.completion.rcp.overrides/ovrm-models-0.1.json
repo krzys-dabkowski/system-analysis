@@ -1,0 +1,22 @@
+{
+  "C:\\Users\\krzysztof.dabkowski\\Documents\\1_Private\\Praca\\Dev\\IBW\\workspace 10.2013\\ch.uzh.business.systemanalyse.tool\\src": {
+    "location": "C:\\Users\\krzysztof.dabkowski\\Documents\\1_Private\\Praca\\Dev\\IBW\\workspace 10.2013\\ch.uzh.business.systemanalyse.tool\\src",
+    "status": "UNRESOLVED",
+    "error": "No call model found for \u0027C:\\Users\\krzysztof.dabkowski\\Documents\\1_Private\\Praca\\Dev\\IBW\\workspace 10.2013\\ch.uzh.business.systemanalyse.tool\\src\u0027. Neither fingerprint \u0027null\u0027 nor symbolic name \u0027ch.uzh.business.systemanalyse.tool\u0027 are known."
+  },
+  "C:\\Users\\krzysztof.dabkowski\\Documents\\1_Private\\Praca\\Dev\\eclipse-rcp-kepler-SR1-win32\\eclipse\\plugins\\org.eclipse.ui.workbench_3.105.1.v20130821-1411.jar": {
+    "coordinate": "org.eclipse.ui:org.eclipse.ui.workbench:zip:ovrm:3.0.0",
+    "location": "C:\\Users\\krzysztof.dabkowski\\Documents\\1_Private\\Praca\\Dev\\eclipse-rcp-kepler-SR1-win32\\eclipse\\plugins\\org.eclipse.ui.workbench_3.105.1.v20130821-1411.jar",
+    "status": "RESOLVED"
+  },
+  "C:\\Program Files (x86)\\Java\\jre7\\lib\\rt.jar": {
+    "coordinate": "jre:jre:zip:ovrm:1.0.0",
+    "location": "C:\\Program Files (x86)\\Java\\jre7\\lib\\rt.jar",
+    "status": "RESOLVED"
+  },
+  "C:\\Users\\krzysztof.dabkowski\\Documents\\1_Private\\Praca\\Dev\\eclipse-rcp-kepler-SR1-win32\\eclipse\\plugins\\org.eclipse.jface_3.9.1.v20130725-1141.jar": {
+    "coordinate": "org.eclipse.jface:org.eclipse.jface:zip:ovrm:3.0.0",
+    "location": "C:\\Users\\krzysztof.dabkowski\\Documents\\1_Private\\Praca\\Dev\\eclipse-rcp-kepler-SR1-win32\\eclipse\\plugins\\org.eclipse.jface_3.9.1.v20130725-1141.jar",
+    "status": "RESOLVED"
+  }
+}

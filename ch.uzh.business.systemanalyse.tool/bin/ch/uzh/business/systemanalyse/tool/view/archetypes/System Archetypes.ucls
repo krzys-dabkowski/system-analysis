@@ -1,0 +1,95 @@
+<class-diagram version="1.0.10" icons="true" automaticImage="PNG" always-add-relationships="false" 
+  generalizations="true" realizations="true" associations="true" dependencies="false" nesting-relationships="true">  
+  <class id="1" corner="BOTTOM_RIGHT" language="java" 
+    name="ch.uzh.business.systemanalyse.tool.view.archetypes.ArchetypeOutOfControlView" 
+    project="ch.uzh.business.systemanalyse.tool" 
+    file="/ch.uzh.business.systemanalyse.tool/src/ch/uzh/business/systemanalyse/tool/view/archetypes/ArchetypeOutOfControlView.java" 
+    binary="false">    
+    <position height="-1" width="-1" x="683" y="-192"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="2" corner="BOTTOM_RIGHT" language="java" 
+    name="ch.uzh.business.systemanalyse.tool.view.archetypes.AbstractArchetypeView" 
+    project="ch.uzh.business.systemanalyse.tool" 
+    file="/ch.uzh.business.systemanalyse.tool/src/ch/uzh/business/systemanalyse/tool/view/archetypes/AbstractArchetypeView.java" 
+    binary="false">    
+    <position height="-1" width="-1" x="209" y="130"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="3" corner="BOTTOM_RIGHT" language="java" 
+    name="ch.uzh.business.systemanalyse.tool.view.archetypes.ArchetypeRelativeControlView" 
+    project="ch.uzh.business.systemanalyse.tool" 
+    file="/ch.uzh.business.systemanalyse.tool/src/ch/uzh/business/systemanalyse/tool/view/archetypes/ArchetypeRelativeControlView.java" 
+    binary="false">    
+    <position height="-1" width="-1" x="725" y="339"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="4" corner="BOTTOM_RIGHT" language="java" 
+    name="ch.uzh.business.systemanalyse.tool.view.archetypes.ArchetypeRelativeAchievementView" 
+    project="ch.uzh.business.systemanalyse.tool" 
+    file="/ch.uzh.business.systemanalyse.tool/src/ch/uzh/business/systemanalyse/tool/view/archetypes/ArchetypeRelativeAchievementView.java" 
+    binary="false">    
+    <position height="-1" width="-1" x="641" y="516"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="5" corner="BOTTOM_RIGHT" language="java" 
+    name="ch.uzh.business.systemanalyse.tool.view.archetypes.ArchetypeUnderachievementView" 
+    project="ch.uzh.business.systemanalyse.tool" 
+    file="/ch.uzh.business.systemanalyse.tool/src/ch/uzh/business/systemanalyse/tool/view/archetypes/ArchetypeUnderachievementView.java" 
+    binary="false">    
+    <position height="-1" width="-1" x="733" y="182"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="6" corner="BOTTOM_RIGHT" language="java" 
+    name="ch.uzh.business.systemanalyse.tool.view.archetypes.ArchetypeOutOfControlView.PathsViewerComparatorOoC" 
+    project="ch.uzh.business.systemanalyse.tool" 
+    file="/ch.uzh.business.systemanalyse.tool/src/ch/uzh/business/systemanalyse/tool/view/archetypes/ArchetypeOutOfControlView.java" 
+    binary="false">    
+    <position height="-1" width="-1" x="676" y="32"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <nesting id="7">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="6"/>  
+  </nesting>  
+  <generalization id="8">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="2"/>  
+  </generalization>  
+  <generalization id="9">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="2"/>  
+  </generalization>  
+  <generalization id="10">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="2"/>  
+  </generalization>  
+  <generalization id="11">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="2"/>  
+  </generalization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+    visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true"/>    
+    <operations public="true" package="true" protected="true" private="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

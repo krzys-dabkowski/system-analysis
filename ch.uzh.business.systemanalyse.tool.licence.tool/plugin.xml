@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+
+   <extension
+         id="product"
+         point="org.eclipse.core.runtime.products">
+      <product
+            name="ch.uzh.business.systemanalyse.tool.licence.tool"
+            application="org.eclipse.e4.ui.workbench.swt.E4Application">
+         <property
+               name="applicationCSS"
+               value="platform:/plugin/ch.uzh.business.systemanalyse.tool.licence.tool/css/default.css">
+         </property>
+         <property
+               name="appName"
+               value="ch.uzh.business.systemanalyse.tool.licence.tool">
+         </property>
+         <property
+               name="windowImages"
+               value="icons/uzh_logo16x16.png,icons/uzh_logo32x32.png,icons/uzh_logo48x48.png,icons/uzh_logo64x64.png,icons/uzh_logo128x128.png">
+         </property>
+      </product>
+   </extension>
+
+</plugin>

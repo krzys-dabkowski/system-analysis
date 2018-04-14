@@ -1,0 +1,309 @@
+!SESSION 2013-10-07 18:20:09.391 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_25
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product ch.uzh.business.systemanalyse.tool.product
+Command-line arguments:  -product ch.uzh.business.systemanalyse.tool.product -data C:\Users\krzysztof.dabkowski\Documents\1_Private\IBW\workspace 10.2013/../runtime-ch.uzh.business.systemanalyse.tool.product(1) -dev file:C:/Users/krzysztof.dabkowski/Documents/1_Private/IBW/workspace 10.2013/.metadata/.plugins/org.eclipse.pde.core/ch.uzh.business.systemanalyse.tool.product (1)/dev.properties -os win32 -ws win32 -arch x86 -consoleLog
+
+!ENTRY org.eclipse.equinox.app 0 0 2013-10-07 18:20:11.316
+!MESSAGE Product ch.uzh.business.systemanalyse.tool.product could not be found.
+
+!ENTRY org.eclipse.osgi 2 0 2013-10-07 18:20:11.367
+!MESSAGE One or more bundles are not resolved because the following root constraints are not resolved:
+!SUBENTRY 1 org.eclipse.osgi 2 0 2013-10-07 18:20:11.368
+!MESSAGE Bundle initial@reference:file:plugins/org.eclipse.ui_3.105.0.v20130522-1122.jar was not resolved.
+!SUBENTRY 2 org.eclipse.ui 2 0 2013-10-07 18:20:11.368
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(|(&(osgi.ee=CDC/Foundation)(version=1.0))(&(osgi.ee=JavaSE)(version=1.3)))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2013-10-07 18:20:11.369
+!MESSAGE Bundle initial@reference:file:plugins/org.eclipse.ui.workbench_3.105.1.v20130821-1411.jar was not resolved.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.370
+!MESSAGE Missing imported package org.eclipse.emf.common.util_0.0.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.370
+!MESSAGE Missing required bundle org.eclipse.e4.ui.css.swt.theme_0.9.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.371
+!MESSAGE Missing imported package org.eclipse.e4.core.commands_0.0.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.371
+!MESSAGE Missing imported package org.eclipse.emf.ecore.util_0.0.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.372
+!MESSAGE Missing required bundle org.eclipse.e4.ui.css.swt_0.9.1.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.372
+!MESSAGE Missing imported package org.eclipse.e4.ui.internal.workbench.swt_0.0.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.373
+!MESSAGE Missing imported package org.eclipse.e4.ui.services_0.0.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.373
+!MESSAGE Missing required bundle org.eclipse.e4.ui.workbench.addons.swt_0.10.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.373
+!MESSAGE Missing required bundle org.eclipse.e4.ui.di_0.9.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.374
+!MESSAGE Missing imported package javax.inject_1.0.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.374
+!MESSAGE Missing imported package org.eclipse.e4.core.commands.internal_0.0.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.375
+!MESSAGE Missing required bundle org.eclipse.e4.core.services_1.0.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.375
+!MESSAGE Missing imported package org.eclipse.e4.ui.workbench.modeling_0.0.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.376
+!MESSAGE Missing imported package org.eclipse.e4.ui.workbench_0.0.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.376
+!MESSAGE Missing imported package org.eclipse.e4.ui.internal.workbench_0.0.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.377
+!MESSAGE Missing required bundle org.eclipse.e4.core.di_1.1.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.377
+!MESSAGE Missing imported package org.eclipse.emf.ecore_0.0.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.377
+!MESSAGE Missing required bundle org.eclipse.e4.ui.bindings_0.9.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.378
+!MESSAGE Missing required bundle org.eclipse.e4.core.contexts_1.0.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.378
+!MESSAGE Missing required bundle org.eclipse.emf.ecore_2.7.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.379
+!MESSAGE Missing required bundle org.eclipse.e4.ui.css.core_0.9.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.379
+!MESSAGE Missing required bundle org.eclipse.e4.ui.workbench3_0.12.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.379
+!MESSAGE Missing imported package org.eclipse.e4.ui.internal.workbench.addons_0.0.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.380
+!MESSAGE Missing imported package org.w3c.dom.css_2.0.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.380
+!MESSAGE Missing imported package org.eclipse.e4.ui.workbench.renderers.swt_0.0.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.381
+!MESSAGE Missing required bundle org.eclipse.e4.ui.model.workbench_0.9.1.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.381
+!MESSAGE Missing imported package javax.annotation_1.0.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.381
+!MESSAGE Missing imported package org.eclipse.e4.ui.internal.workbench.renderers.swt_0.0.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.382
+!MESSAGE Missing required bundle org.eclipse.e4.ui.workbench.swt_0.9.1.
+
+!ENTRY org.eclipse.osgi 2 0 2013-10-07 18:20:11.395
+!MESSAGE The following is a complete list of bundles which are not resolved, see the prior log entry for the root cause if it exists:
+!SUBENTRY 1 org.eclipse.osgi 2 0 2013-10-07 18:20:11.395
+!MESSAGE Bundle ch.uzh.business.systemanalyse.tool_1.0.0.qualifier [4] was not resolved.
+!SUBENTRY 2 ch.uzh.business.systemanalyse.tool 2 0 2013-10-07 18:20:11.396
+!MESSAGE Missing required bundle org.eclipse.ui_0.0.0.
+!SUBENTRY 1 org.eclipse.osgi 2 0 2013-10-07 18:20:11.396
+!MESSAGE Bundle org.eclipse.ui_3.105.0.v20130522-1122 [13] was not resolved.
+!SUBENTRY 2 org.eclipse.ui 2 0 2013-10-07 18:20:11.397
+!MESSAGE Missing required bundle org.eclipse.ui.workbench_[3.105.0,4.0.0).
+!SUBENTRY 2 org.eclipse.ui 2 0 2013-10-07 18:20:11.397
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(|(&(osgi.ee=CDC/Foundation)(version=1.0))(&(osgi.ee=JavaSE)(version=1.3)))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2013-10-07 18:20:11.398
+!MESSAGE Bundle org.eclipse.ui.workbench_3.105.1.v20130821-1411 [23] was not resolved.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.398
+!MESSAGE Missing required bundle org.eclipse.e4.core.services_1.0.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.398
+!MESSAGE Missing required bundle org.eclipse.e4.core.contexts_1.0.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.399
+!MESSAGE Missing required bundle org.eclipse.e4.core.di_1.1.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.399
+!MESSAGE Missing required bundle org.eclipse.e4.ui.workbench.swt_0.9.1.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.399
+!MESSAGE Missing required bundle org.eclipse.e4.ui.di_0.9.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.400
+!MESSAGE Missing required bundle org.eclipse.e4.ui.model.workbench_0.9.1.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.400
+!MESSAGE Missing required bundle org.eclipse.e4.ui.css.swt.theme_0.9.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.401
+!MESSAGE Missing required bundle org.eclipse.e4.ui.bindings_0.9.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.401
+!MESSAGE Missing required bundle org.eclipse.e4.ui.css.swt_0.9.1.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.401
+!MESSAGE Missing required bundle org.eclipse.e4.ui.css.core_0.9.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.402
+!MESSAGE Missing required bundle org.eclipse.e4.ui.workbench3_0.12.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.402
+!MESSAGE Missing required bundle org.eclipse.e4.ui.workbench.addons.swt_0.10.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.402
+!MESSAGE Missing required bundle org.eclipse.emf.ecore_2.7.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.403
+!MESSAGE Missing imported package javax.annotation_1.0.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.403
+!MESSAGE Missing imported package javax.inject_1.0.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.403
+!MESSAGE Missing imported package org.eclipse.e4.core.commands_0.0.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.404
+!MESSAGE Missing imported package org.eclipse.e4.core.commands.internal_0.0.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.404
+!MESSAGE Missing imported package org.eclipse.e4.ui.internal.workbench_0.0.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.405
+!MESSAGE Missing imported package org.eclipse.e4.ui.internal.workbench.addons_0.0.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.405
+!MESSAGE Missing imported package org.eclipse.e4.ui.internal.workbench.renderers.swt_0.0.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.405
+!MESSAGE Missing imported package org.eclipse.e4.ui.internal.workbench.swt_0.0.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.406
+!MESSAGE Missing imported package org.eclipse.e4.ui.services_0.0.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.406
+!MESSAGE Missing imported package org.eclipse.e4.ui.workbench_0.0.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.406
+!MESSAGE Missing imported package org.eclipse.e4.ui.workbench.modeling_0.0.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.407
+!MESSAGE Missing imported package org.eclipse.e4.ui.workbench.renderers.swt_0.0.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.408
+!MESSAGE Missing imported package org.eclipse.emf.common.util_0.0.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.408
+!MESSAGE Missing imported package org.eclipse.emf.ecore_0.0.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.408
+!MESSAGE Missing imported package org.eclipse.emf.ecore.util_0.0.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.409
+!MESSAGE Missing imported package org.w3c.dom.css_2.0.0.
+
+!ENTRY org.eclipse.osgi 2 0 2013-10-07 18:20:11.435
+!MESSAGE One or more bundles are not resolved because the following root constraints are not resolved:
+!SUBENTRY 1 org.eclipse.osgi 2 0 2013-10-07 18:20:11.436
+!MESSAGE Bundle initial@reference:file:plugins/org.eclipse.ui_3.105.0.v20130522-1122.jar was not resolved.
+!SUBENTRY 2 org.eclipse.ui 2 0 2013-10-07 18:20:11.436
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(|(&(osgi.ee=CDC/Foundation)(version=1.0))(&(osgi.ee=JavaSE)(version=1.3)))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2013-10-07 18:20:11.436
+!MESSAGE Bundle initial@reference:file:plugins/org.eclipse.ui.workbench_3.105.1.v20130821-1411.jar was not resolved.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.437
+!MESSAGE Missing imported package org.eclipse.emf.common.util_0.0.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.437
+!MESSAGE Missing required bundle org.eclipse.e4.ui.css.swt.theme_0.9.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.437
+!MESSAGE Missing imported package org.eclipse.e4.core.commands_0.0.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.438
+!MESSAGE Missing imported package org.eclipse.emf.ecore.util_0.0.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.438
+!MESSAGE Missing required bundle org.eclipse.e4.ui.css.swt_0.9.1.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.438
+!MESSAGE Missing imported package org.eclipse.e4.ui.internal.workbench.swt_0.0.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.439
+!MESSAGE Missing imported package org.eclipse.e4.ui.services_0.0.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.439
+!MESSAGE Missing required bundle org.eclipse.e4.ui.workbench.addons.swt_0.10.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.439
+!MESSAGE Missing required bundle org.eclipse.e4.ui.di_0.9.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.440
+!MESSAGE Missing imported package javax.inject_1.0.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.440
+!MESSAGE Missing imported package org.eclipse.e4.core.commands.internal_0.0.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.440
+!MESSAGE Missing required bundle org.eclipse.e4.core.services_1.0.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.441
+!MESSAGE Missing imported package org.eclipse.e4.ui.workbench.modeling_0.0.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.441
+!MESSAGE Missing imported package org.eclipse.e4.ui.workbench_0.0.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.441
+!MESSAGE Missing imported package org.eclipse.e4.ui.internal.workbench_0.0.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.442
+!MESSAGE Missing required bundle org.eclipse.e4.core.di_1.1.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.442
+!MESSAGE Missing imported package org.eclipse.emf.ecore_0.0.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.442
+!MESSAGE Missing required bundle org.eclipse.e4.ui.bindings_0.9.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.442
+!MESSAGE Missing required bundle org.eclipse.e4.core.contexts_1.0.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.443
+!MESSAGE Missing required bundle org.eclipse.emf.ecore_2.7.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.443
+!MESSAGE Missing required bundle org.eclipse.e4.ui.css.core_0.9.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.444
+!MESSAGE Missing required bundle org.eclipse.e4.ui.workbench3_0.12.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.445
+!MESSAGE Missing imported package org.eclipse.e4.ui.internal.workbench.addons_0.0.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.445
+!MESSAGE Missing imported package org.w3c.dom.css_2.0.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.445
+!MESSAGE Missing imported package org.eclipse.e4.ui.workbench.renderers.swt_0.0.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.445
+!MESSAGE Missing required bundle org.eclipse.e4.ui.model.workbench_0.9.1.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.446
+!MESSAGE Missing imported package javax.annotation_1.0.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.446
+!MESSAGE Missing imported package org.eclipse.e4.ui.internal.workbench.renderers.swt_0.0.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.446
+!MESSAGE Missing required bundle org.eclipse.e4.ui.workbench.swt_0.9.1.
+
+!ENTRY org.eclipse.osgi 2 0 2013-10-07 18:20:11.458
+!MESSAGE The following is a complete list of bundles which are not resolved, see the prior log entry for the root cause if it exists:
+!SUBENTRY 1 org.eclipse.osgi 2 0 2013-10-07 18:20:11.458
+!MESSAGE Bundle ch.uzh.business.systemanalyse.tool_1.0.0.qualifier [4] was not resolved.
+!SUBENTRY 2 ch.uzh.business.systemanalyse.tool 2 0 2013-10-07 18:20:11.458
+!MESSAGE Missing required bundle org.eclipse.ui_0.0.0.
+!SUBENTRY 1 org.eclipse.osgi 2 0 2013-10-07 18:20:11.459
+!MESSAGE Bundle org.eclipse.ui_3.105.0.v20130522-1122 [13] was not resolved.
+!SUBENTRY 2 org.eclipse.ui 2 0 2013-10-07 18:20:11.459
+!MESSAGE Missing required bundle org.eclipse.ui.workbench_[3.105.0,4.0.0).
+!SUBENTRY 2 org.eclipse.ui 2 0 2013-10-07 18:20:11.459
+!MESSAGE Missing required capability Require-Capability: osgi.ee; filter="(|(&(osgi.ee=CDC/Foundation)(version=1.0))(&(osgi.ee=JavaSE)(version=1.3)))".
+!SUBENTRY 1 org.eclipse.osgi 2 0 2013-10-07 18:20:11.459
+!MESSAGE Bundle org.eclipse.ui.workbench_3.105.1.v20130821-1411 [23] was not resolved.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.459
+!MESSAGE Missing required bundle org.eclipse.e4.core.services_1.0.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.459
+!MESSAGE Missing required bundle org.eclipse.e4.core.contexts_1.0.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.460
+!MESSAGE Missing required bundle org.eclipse.e4.core.di_1.1.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.460
+!MESSAGE Missing required bundle org.eclipse.e4.ui.workbench.swt_0.9.1.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.460
+!MESSAGE Missing required bundle org.eclipse.e4.ui.di_0.9.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.460
+!MESSAGE Missing required bundle org.eclipse.e4.ui.model.workbench_0.9.1.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.460
+!MESSAGE Missing required bundle org.eclipse.e4.ui.css.swt.theme_0.9.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.460
+!MESSAGE Missing required bundle org.eclipse.e4.ui.bindings_0.9.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.461
+!MESSAGE Missing required bundle org.eclipse.e4.ui.css.swt_0.9.1.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.461
+!MESSAGE Missing required bundle org.eclipse.e4.ui.css.core_0.9.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.461
+!MESSAGE Missing required bundle org.eclipse.e4.ui.workbench3_0.12.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.461
+!MESSAGE Missing required bundle org.eclipse.e4.ui.workbench.addons.swt_0.10.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.461
+!MESSAGE Missing required bundle org.eclipse.emf.ecore_2.7.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.461
+!MESSAGE Missing imported package javax.annotation_1.0.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.461
+!MESSAGE Missing imported package javax.inject_1.0.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.462
+!MESSAGE Missing imported package org.eclipse.e4.core.commands_0.0.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.462
+!MESSAGE Missing imported package org.eclipse.e4.core.commands.internal_0.0.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.462
+!MESSAGE Missing imported package org.eclipse.e4.ui.internal.workbench_0.0.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.462
+!MESSAGE Missing imported package org.eclipse.e4.ui.internal.workbench.addons_0.0.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.462
+!MESSAGE Missing imported package org.eclipse.e4.ui.internal.workbench.renderers.swt_0.0.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.462
+!MESSAGE Missing imported package org.eclipse.e4.ui.internal.workbench.swt_0.0.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.463
+!MESSAGE Missing imported package org.eclipse.e4.ui.services_0.0.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.463
+!MESSAGE Missing imported package org.eclipse.e4.ui.workbench_0.0.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.463
+!MESSAGE Missing imported package org.eclipse.e4.ui.workbench.modeling_0.0.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.463
+!MESSAGE Missing imported package org.eclipse.e4.ui.workbench.renderers.swt_0.0.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.463
+!MESSAGE Missing imported package org.eclipse.emf.common.util_0.0.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.463
+!MESSAGE Missing imported package org.eclipse.emf.ecore_0.0.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.464
+!MESSAGE Missing imported package org.eclipse.emf.ecore.util_0.0.0.
+!SUBENTRY 2 org.eclipse.ui.workbench 2 0 2013-10-07 18:20:11.464
+!MESSAGE Missing imported package org.w3c.dom.css_2.0.0.
+
+!ENTRY org.eclipse.osgi 4 0 2013-10-07 18:20:11.468
+!MESSAGE Application error
+!STACK 1
+java.lang.RuntimeException: No application id has been found.
+	at org.eclipse.equinox.internal.app.EclipseAppContainer.startDefaultApp(EclipseAppContainer.java:242)
+	at org.eclipse.equinox.internal.app.MainApplicationLauncher.run(MainApplicationLauncher.java:29)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1426)

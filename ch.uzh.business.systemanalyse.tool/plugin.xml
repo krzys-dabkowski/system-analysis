@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         id="application"
+         name="Executive System Analysis"
+         point="org.eclipse.core.runtime.applications">
+      <application>
+         <run
+               class="ch.uzh.business.systemanalyse.tool.Application">
+         </run>
+      </application>
+   </extension>
+   <extension
+         point="org.eclipse.ui.perspectives">
+      <perspective
+            class="ch.uzh.business.systemanalyse.tool.PerspectiveTree"
+            id="ch.uzh.business.systemanalyse.tool.perspectiveTree"
+            name="Tree Perspective">
+      </perspective>
+      <perspective
+            name="Perspective"
+            class="ch.uzh.business.systemanalyse.tool.Perspective"
+            id="ch.uzh.business.systemanalyse.tool.perspective">
+      </perspective>
+   </extension>
+   <extension
+         id="LimitsToGrowthView"
+         point="org.eclipse.ui.views">
+      <view
+            class="ch.uzh.business.systemanalyse.tool.navigation.TreeOverView"
+            icon="icons/house_16x16.png"
+            id="ch.uzh.business.systemanalyse.tool.navigation.treeOverView"
+            name="Overview"
+            restorable="true">
+      </view>
+      <view
+            class="ch.uzh.business.systemanalyse.tool.view.welcome.WelcomeView"
+            icon="icons/house_16x16.png"
+            id="ch.uzh.business.systemanalyse.tool.views.welcomeview"
+            name="Welcome"
+            restorable="true">
+      </view>
+      <view
+            class="ch.uzh.business.systemanalyse.tool.view.table.ImpactTableView"
+            icon="icons/table_16x16.png"
+            id="ch.uzh.business.systemanalyse.tool.views.impacttableview"
+            name="Cross-Impact Matrix">
+      </view>
+      <view
+            class="ch.uzh.business.systemanalyse.tool.view.table.DelayTableView"
+            icon="icons/table_16x16.png"
+            id="ch.uzh.business.systemanalyse.tool.views.delaytableview"
+            name="Cross-Time Matrix"
+            restorable="true">
+      </view>
+      <view
+            class="ch.uzh.business.systemanalyse.tool.view.table.CrossDelayTableView"
+            icon="icons/table_16x16.png"
+            id="ch.uzh.business.systemanalyse.tool.views.crossdelaytableview"
+            name="Cross-Delay Matrix"
+            restorable="true">
+      </view>
+      <view
+            class="ch.uzh.business.systemanalyse.tool.view.table.CrossEffectTableView"
+            icon="icons/table_16x16.png"
+            id="ch.uzh.business.systemanalyse.tool.views.crosseffecttableview"
+            name="Cross-Effect Matrix"
+            restorable="true">
+      </view>
+      <view
+            class="ch.uzh.business.systemanalyse.tool.view.chart.AsPsChartView"
+            icon="icons/line_graph_16x16.png"
+            id="ch.uzh.business.systemanalyse.tool.views.aspschartview"
+            name="AS-PS Chart"
+            restorable="true">
+      </view>
+      <view
+            class="ch.uzh.business.systemanalyse.tool.view.chart.PdRdChartView"
+            icon="icons/line_graph_16x16.png"
+            id="ch.uzh.business.systemanalyse.tool.views.pdrdchartview"
+            name="PD-RD Chart"
+            restorable="true">
+      </view>
+      <view
+            class="ch.uzh.business.systemanalyse.tool.view.chart.AsPdChartView"
+            icon="icons/line_graph_16x16.png"
+            id="ch.uzh.business.systemanalyse.tool.views.aspdchartview"
+            name="AS-PD Chart"
+            restorable="true">
+      </view>
+      <view
+            class="ch.uzh.business.systemanalyse.tool.view.chart.PsRdChartView"
+            icon="icons/line_graph_16x16.png"
+            id="ch.uzh.business.systemanalyse.tool.views.psrdchartview"
+            name="PS-RD Chart"
+            restorable="true">
+      </view>
+      <view
+            class="ch.uzh.business.systemanalyse.tool.view.table.IncomingInfluenceTableView"
+            icon="icons/table_16x16.png"
+            id="ch.uzh.business.systemanalyse.tool.views.incominginfluence"
+            name="Incoming influence"
+            restorable="true">
+      </view>
+      <view
+            class="ch.uzh.business.systemanalyse.tool.view.chart.IncomingInfluenceChart"
+            icon="icons/line_graph_16x16.png"
+            id="ch.uzh.business.systemanalyse.tool.views.incominginfluencechart"
+            name="Incoming Influence Chart"
+            restorable="true">
+      </view>
+      <view
+            class="ch.uzh.business.systemanalyse.tool.view.table.OutgoingInfluenceTableView"
+            icon="icons/table_16x16.png"
+            id="ch.uzh.business.systemanalyse.tool.views.outgoinginfluence"
+            name="Outgoing influence"
+            restorable="true">
+      </view>
+      <view
+            class="ch.uzh.business.systemanalyse.tool.view.chart.OutgoingInfluenceChart"
+            icon="icons/line_graph_16x16.png"
+            id="ch.uzh.business.systemanalyse.tool.views.outgoinginfluencechart"
+            name="Outgoing Influence Chart"
+            restorable="true">
+      </view>
+      <view
+            class="ch.uzh.business.systemanalyse.tool.view.paths.NodeToNodeTable"
+            icon="icons/table_16x16.png"
+            id="ch.uzh.business.systemanalyse.tool.views.nodetonodetable"
+            name="All paths from node A to node B"
+            restorable="true">
+      </view>
+      <view
+            class="ch.uzh.business.systemanalyse.tool.view.chart.NodeToNodeChart"
+            icon="icons/line_graph_16x16.png"
+            id="ch.uzh.business.systemanalyse.tool.views.nodetonodechart"
+            name="All paths from node A to node B Chart"
+            restorable="true">
+      </view>
+      <view
+            class="ch.uzh.business.systemanalyse.tool.view.paths.FromNodeTable"
+            icon="icons/table_16x16.png"
+            id="ch.uzh.business.systemanalyse.tool.views.fromnodetable"
+            name="All paths from node A"
+            restorable="true">
+      </view>
+      <view
+            class="ch.uzh.business.systemanalyse.tool.view.chart.FromNodeChart"
+            icon="icons/line_graph_16x16.png"
+            id="ch.uzh.business.systemanalyse.tool.views.fromnodechart"
+            name="All paths from node A Chart"
+            restorable="true">
+      </view>
+      <view
+            class="ch.uzh.business.systemanalyse.tool.view.paths.ToNodeTable"
+            icon="icons/table_16x16.png"
+            id="ch.uzh.business.systemanalyse.tool.views.tonodetable"
+            name="All paths to node A"
+            restorable="true">
+      </view>
+      <view
+            class="ch.uzh.business.systemanalyse.tool.view.chart.ToNodeChart"
+            icon="icons/line_graph_16x16.png"
+            id="ch.uzh.business.systemanalyse.tool.views.tonodechart"
+            name="All paths to node A Chart"
+            restorable="true">
+      </view>
+      <view
+            class="ch.uzh.business.systemanalyse.tool.view.policyonoff.PolicyOnOffView"
+            id="ch.uzh.business.systemanalyse.tool.views.policyonoff"
+            name="Policy ON/OFF"
+            restorable="true">
+      </view>
+      <view
+            class="ch.uzh.business.systemanalyse.tool.view.archetypes.CausalLoopDiagramView"
+            icon="icons/line_graph_16x16.png"
+            id="ch.uzh.business.systemanalyse.tool.views.causalloopdiagram"
+            name="Causal Loop Diagram"
+            restorable="true">
+      </view>
+      <view
+            class="ch.uzh.business.systemanalyse.tool.view.archetypes.ArchetypeUnderachievementView"
+            icon="icons/line_graph_16x16.png"
+            id="ch.uzh.business.systemanalyse.tool.views.archetypes.underachievement"
+            name="Underachievement"
+            restorable="true">
+      </view>
+      <view
+            class="ch.uzh.business.systemanalyse.tool.view.archetypes.ArchetypeOutOfControlView"
+            icon="icons/line_graph_16x16.png"
+            id="ch.uzh.business.systemanalyse.tool.views.archetypes.outofcontrol"
+            name="Out of Control"
+            restorable="true">
+      </view>
+      <view
+            class="ch.uzh.business.systemanalyse.tool.view.archetypes.ArchetypeRelativeAchievementView"
+            icon="icons/line_graph_16x16.png"
+            id="ch.uzh.business.systemanalyse.tool.views.archetypes.relativeachievement"
+            name="Relative Achievement"
+            restorable="true">
+      </view>
+      <view
+            class="ch.uzh.business.systemanalyse.tool.view.archetypes.ArchetypeRelativeControlView"
+            icon="icons/line_graph_16x16.png"
+            id="ch.uzh.business.systemanalyse.tool.views.archetypes.relativecontrol"
+            name="Relative Control"
+            restorable="true">
+      </view>
+     
+      <view
+            class="ch.uzh.business.systemanalyse.tool.ConsoleView"
+            id="ch.uzh.business.systemanalyse.tool.console"
+            name="console"
+            restorable="true">
+      </view>
+   </extension>
+   <!--extension
+         point="org.eclipse.ui.perspectiveExtensions">
+      <perspectiveExtension
+            targetID="*">
+         <view
+               standalone="true"
+               minimized="false"
+               relative="org.eclipse.ui.editorss"
+               relationship="left"
+               id="ch.uzh.business.systemanalyse.tool.impacttableview">
+         </view>
+      </perspectiveExtension>
+   </extension-->
+   <extension
+         point="org.eclipse.ui.menus">
+      <menuContribution
+            locationURI="menu:org.eclipse.ui.main.menu">
+         <menu
+               label="File">
+            <command
+                  commandId="ch.uzh.business.systemanalyse.tool.commands.saveas"
+                  label="Save Model As..."
+                  style="push">
+            </command>
+            <command
+                  commandId="ch.uzh.business.systemanalyse.tool.commands.Save"
+                  label="View print out"
+                  style="push">
+            </command>
+            <command
+                  commandId="ch.uzh.business.systemanalyse.tool.commands.loadmodel"
+                  label="Load Model From File"
+                  style="push">
+            </command>
+            <command
+                  commandId="ch.uzh.business.systemanalyse.tool.commands.clearmodel"
+                  style="push">
+            </command>
+            <command
+                  commandId="ch.uzh.business.systemanalyse.tool.commands.showwelcomewizard"
+                  style="push">
+            </command>
+            <command
+                  commandId="org.eclipse.ui.file.exit"
+                  label="Exit">
+            </command>
+         </menu>
+         <menu
+               label="View">
+            <command
+                  commandId="org.eclipse.ui.views.showView"
+                  label="Open Navigation"
+                  style="push">
+               <parameter
+                     name="org.eclipse.ui.views.showView.viewId"
+                     value="ch.uzh.business.systemanalyse.tool.navigation.treeOverView">
+               </parameter>
+            </command>
+            <command
+                  commandId="org.eclipse.ui.views.showView"
+                  label="Open Welcome View"
+                  style="push">
+               <parameter
+                     name="org.eclipse.ui.views.showView.viewId"
+                     value="ch.uzh.business.systemanalyse.tool.views.welcomeview">
+               </parameter>
+            </command>
+            <command
+                  commandId="org.eclipse.ui.window.resetPerspective"
+                  label="Reset Layout"
+                  style="push">
+            </command>
+         </menu>
+         <menu
+               label="Edit">
+            <command
+                  commandId="ch.uzh.business.systemanalyse.tool.commands.AddVariable"
+                  style="push">
+            </command>
+            <command
+                  commandId="ch.uzh.business.systemanalyse.tool.commands.DeleteVariable"
+                  style="push">
+            </command>
+            <command
+                  commandId="ch.uzh.business.systemanalyse.tool.commands.saveTableXls"
+                  style="push">
+            </command>
+            <command
+                  commandId="ch.uzh.business.systemanalyse.tool.commands.SaveTablePathsToExcel"
+                  style="push">
+            </command>
+         </menu>
+         <menu
+               label="Preferences">
+            <command
+                  commandId="org.eclipse.ui.window.preferences"
+                  label="Preferences"
+                  style="push">
+            </command>
+         </menu>
+      </menuContribution>
+      <menuContribution
+            allPopups="false"
+            locationURI="popup:ch.uzh.business.systemanalyse.tool.views.impacttableview">
+         <command
+               commandId="ch.uzh.business.systemanalyse.tool.commands.PrintModel"
+               label="Print model"
+               style="push">
+         </command>
+         <command
+               commandId="ch.uzh.business.systemanalyse.tool.commands.AddVariable"
+               label="Add variable"
+               style="push">
+         </command>
+         <command
+               commandId="ch.uzh.business.systemanalyse.tool.commands.DeleteVariable"
+               label="Delete variable"
+               style="push">
+         </command>
+      </menuContribution>
+   </extension>
+   <extension
+         point="org.eclipse.ui.commands">
+      <command
+            defaultHandler="ch.uzh.business.systemanalyse.tool.commands.PrintModelHandler"
+            id="ch.uzh.business.systemanalyse.tool.commands.PrintModel"
+            name="PrintModel">
+      </command>
+      <command
+            defaultHandler="ch.uzh.business.systemanalyse.tool.commands.AddVariableHandler"
+            id="ch.uzh.business.systemanalyse.tool.commands.AddVariable"
+            name="Add Variable">
+      </command>
+      <command
+            defaultHandler="ch.uzh.business.systemanalyse.tool.commands.DeleteVariableHandler"
+            id="ch.uzh.business.systemanalyse.tool.commands.DeleteVariable"
+            name="Delete Variable">
+      </command>
+      <command
+            defaultHandler="obsolete.CreatePathFinderCommand"
+            id="ch.uzh.business.systemanalyse.tool.commands.CreatePathFinder"
+            name="CreatePathFinder">
+      </command>
+      <command
+            defaultHandler="ch.uzh.business.systemanalyse.tool.commands.SavePictures"
+            id="ch.uzh.business.systemanalyse.tool.commands.Save"
+            name="Export">
+      </command>
+      <command
+            defaultHandler="ch.uzh.business.systemanalyse.tool.commands.SaveAsHandler"
+            id="ch.uzh.business.systemanalyse.tool.commands.saveas"
+            name="Save Model As...">
+      </command>
+      <command
+            defaultHandler="ch.uzh.business.systemanalyse.tool.model.LoadModelHandler"
+            id="ch.uzh.business.systemanalyse.tool.commands.loadmodel"
+            name="Load Model From File">
+      </command>
+      <command
+            defaultHandler="ch.uzh.business.systemanalyse.tool.commands.ShowWelcomeWizard"
+            id="ch.uzh.business.systemanalyse.tool.commands.showwelcomewizard"
+            name="Show Welcome Wizard">
+      </command>
+      <command
+            defaultHandler="ch.uzh.business.systemanalyse.tool.commands.ClearModel"
+            id="ch.uzh.business.systemanalyse.tool.commands.clearmodel"
+            name="Clear model">
+      </command>
+      <command
+            defaultHandler="obsolete.CreateModel"
+            id="ch.uzh.business.systemanalyse.tool.commands.createmodel"
+            name="Create Model">
+         <commandParameter
+               id="ch.uzh.business.systemanalyse.tool.commandParameters.createmodelparm"
+               name="Create Model Parameter"
+               optional="true"
+               values="obsolete.CreateModelParameterValues">
+         </commandParameter>
+      </command>
+      <command
+            defaultHandler="ch.uzh.business.systemanalyse.tool.commands.SavePathsXls"
+            id="ch.uzh.business.systemanalyse.tool.commands.savepathsxls"
+            name="Save Paths">
+         <commandParameter
+               id="ch.uzh.business.systemanalyse.tool.commands.savepathsxls.parameter"
+               name="SavePathsCommandParameter"
+               optional="true"
+               values="ch.uzh.business.systemanalyse.tool.commands.SavePathsParameter">
+         </commandParameter>
+      </command>
+      <command
+            defaultHandler="obsolete.ExecuteTarjanHandler"
+            id="ch.uzh.business.systemanalyse.tool.commands.executeTarjan"
+            name="execute Tarjan">
+      </command>
+      <command
+            id="ch.uzh.business.systemanalyse.tool.commands.saveTableXls"
+            name="Save Table to Excel">
+      </command>
+      <command
+            id="ch.uzh.business.systemanalyse.tool.commands.SaveTablePathsToExcel"
+            name="Save Paths to Excel">
+      </command>
+   </extension>
+   <extension
+         id="product"
+         point="org.eclipse.core.runtime.products">
+      <product
+            application="ch.uzh.business.systemanalyse.tool.application"
+            name="System analysis">
+         <property
+               name="appName"
+               value="System analysis">
+         </property>
+         <property
+               name="windowImages"
+               value="icons/uzh_logo16x16.png,icons/uzh_logo32x32.png,icons/uzh_logo48x48.png,icons/uzh_logo64x64.png,icons/uzh_logo128x128.png">
+         </property>
+      </product>
+   </extension>
+   <extension
+         point="org.eclipse.ui.preferencePages">
+      <page
+            class="ch.uzh.business.systemanalyse.tool.preferences.ColorsPreferencePage"
+            id="ch.uzh.business.systemanalyse.tool.preferences.page1"
+            name="Colors">
+      </page>
+      <page
+            class="ch.uzh.business.systemanalyse.tool.preferences.DelayValuesPreferencePage"
+            id="ch.uzh.business.systemanalyse.tool.preferences.delayvalues"
+            name="Delay Values">
+      </page>
+      <page
+            class="ch.uzh.business.systemanalyse.tool.preferences.ImpactValuesPreferencePage"
+            id="ch.uzh.business.systemanalyse.tool.preferences.impactvalues"
+            name="Impact Values">
+      </page>
+      <page
+            class="ch.uzh.business.systemanalyse.tool.preferences.ChartPreferencePage"
+            id="ch.uzh.business.systemanalyse.tool.preferences.chart"
+            name="Chart">
+      </page>
+      <page
+            class="ch.uzh.business.systemanalyse.tool.preferences.SavePreferencePage"
+            id="ch.uzh.business.systemanalyse.tool.preferences.print"
+            name="Save pictures">
+      </page>
+      <page
+            class="ch.uzh.business.systemanalyse.tool.preferences.LicencePreferencePage"
+            id="ch.uzh.business.systemanalyse.tool.preferences.licence"
+            name="Licence">
+      </page>
+   </extension>
+   <extension
+         point="org.eclipse.ui.handlers">
+      <handler
+            class="ch.uzh.business.systemanalyse.tool.commands.SaveTableXls"
+            commandId="ch.uzh.business.systemanalyse.tool.commands.saveTableXls">
+         <enabledWhen>
+            <reference
+                  definitionId="ch.uzh.business.systemanalyse.tool.definitions.instanceOf.tableView">
+            </reference>
+         </enabledWhen>
+        
+      </handler>
+      <handler
+            class="ch.uzh.business.systemanalyse.tool.commands.SaveTablePathsXls"
+            commandId="ch.uzh.business.systemanalyse.tool.commands.SaveTablePathsToExcel">
+         <enabledWhen>
+            <reference
+                  definitionId="ch.uzh.business.systemanalyse.tool.definitions.instanceOf.pathsView">
+            </reference>
+         </enabledWhen>
+      </handler>
+   </extension>
+   <extension
+         point="org.eclipse.core.expressions.definitions">
+      <definition
+            id="ch.uzh.business.systemanalyse.tool.definitions.instanceOf.tableView">
+         <with
+               variable="activePart">
+            <instanceof
+                  value="ch.uzh.business.systemanalyse.tool.view.table.AbstractTableView">
+            </instanceof>
+         </with>
+      </definition>
+      <definition
+            id="ch.uzh.business.systemanalyse.tool.definitions.instanceOf.pathsView">
+         <with
+               variable="activePart">
+            <instanceof
+                  value="ch.uzh.business.systemanalyse.tool.view.paths.AbstractPathTable">
+            </instanceof>
+         </with>
+      </definition>
+   </extension>
+
+</plugin>

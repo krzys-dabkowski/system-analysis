@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+<typeInfo handle="=ch.uzh.business.systemanalyse.tool/src&lt;ch.uzh.business.systemanalyse.tool{Application.java[Application" modifiers="1" timestamp="1381251274619"/>
+<typeInfo handle="=ch.uzh.business.systemanalyse.tool/src&lt;ch.uzh.business.systemanalyse.tool.wizard{WelcomeWizard.java[WelcomeWizard" modifiers="1" timestamp="1392071711826"/>
+<typeInfo handle="=ch.uzh.business.systemanalyse.tool/src&lt;ch.uzh.business.systemanalyse.tool.model{LoadModelHandler.java[LoadModelHandler" modifiers="1" timestamp="1393272329951"/>
+<typeInfo handle="=ch.uzh.business.systemanalyse.tool/src&lt;ch.uzh.business.systemanalyse.tool{TestView.java[TestView" modifiers="1" timestamp="1381251275799"/>
+<typeInfo handle="=ch.uzh.business.systemanalyse.tool/src&lt;ch.uzh.business.systemanalyse.tool{ConsoleView.java[ConsoleView" modifiers="1" timestamp="1403589019457"/>
+<typeInfo handle="=ch.uzh.business.systemanalyse.tool/src&lt;ch.uzh.business.systemanalyse.tool.view.table{AbstractTableView.java[AbstractTableView" modifiers="1025" timestamp="1395034921964"/>
+<typeInfo handle="=ch.uzh.business.systemanalyse.tool/src&lt;ch.uzh.business.systemanalyse.tool.model{ModelProvider.java[ModelProvider" modifiers="16385" timestamp="1405272106890"/>
+<typeInfo handle="=ch.uzh.business.systemanalyse.tool/C:\/Users\/krzysztof.dabkowski\/Documents\/1_Private\/Praca\/Dev\/eclipse-rcp-kepler-SR1-win32\/eclipse\/plugins\/org.eclipse.ui.workbench_3.105.1.v20130821-1411.jar&lt;org.eclipse.ui(IWorkbenchPreferencePage.class[IWorkbenchPreferencePage" modifiers="1537" timestamp="1380735954263"/>
+<typeInfo handle="=ch.uzh.business.systemanalyse.tool/C:\/Users\/krzysztof.dabkowski\/Documents\/1_Private\/Praca\/Dev\/eclipse-rcp-kepler-SR1-win32\/eclipse\/plugins\/org.eclipse.ui.workbench_3.105.1.v20130821-1411.jar&lt;org.eclipse.ui(IWorkbenchPreferenceConstants.class[IWorkbenchPreferenceConstants" modifiers="1537" timestamp="1380735954263"/>
+<typeInfo handle="=ch.uzh.business.systemanalyse.tool/src&lt;ch.uzh.business.systemanalyse.tool.preferences{LicencePreferencePage.java[LicencePreferencePage" modifiers="1" timestamp="1395647105213"/>
+<typeInfo handle="=ch.uzh.business.systemanalyse.tool/src&lt;ch.uzh.business.systemanalyse.tool{ApplicationWorkbenchAdvisor.java[ApplicationWorkbenchAdvisor" modifiers="1" timestamp="1392070863952"/>
+</typeInfoHistroy>

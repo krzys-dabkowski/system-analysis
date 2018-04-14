@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<syncparticipants>
+<participant displayName="SVN (/ch.uzh.business.systemanalyse.tool/META-INF, /ch.uzh.business.systemanalyse.tool/build.properties, /ch.uzh.business.systemanalyse.tool/ch.uzh.business.systemanalyse.tool.product, /ch.uzh.business.systemanalyse.tool/icons, /ch.uzh.business.systemanalyse.tool/plugin.xml, /ch.uzh.business.systemanalyse.tool/src/ch/uzh/business/systemanalyse/tool, /ch.uzh.business.systemanalyse.tool/src/obsolete)" id="org.tigris.subversion.subclipse.participant" secondary_id="1405370509016">
+<data root="false">
+<org.eclipse.team.ui.TEAMSUBSRCIBERSETTINGS org.eclipse.team.ui.SCOPE_TYPE="ResourceScope">
+<org.eclipse.team.ui.TEAMSUBSRCIBER_REFRESHSCHEDULE org.eclipse.team.ui.CTX_REFRESHSCHEDULE_ENABLED="false" org.eclipse.team.ui.CTX_REFRESHSCHEDULE_INTERVAL="3600" org.eclipse.team.ui.CTX_REFRESHSCHEDULE_RUNONCE="false"/>
+<resource_scope_roots resource_scope_root_resource="/ch.uzh.business.systemanalyse.tool/META-INF"/>
+<resource_scope_roots resource_scope_root_resource="/ch.uzh.business.systemanalyse.tool/build.properties"/>
+<resource_scope_roots resource_scope_root_resource="/ch.uzh.business.systemanalyse.tool/ch.uzh.business.systemanalyse.tool.product"/>
+<resource_scope_roots resource_scope_root_resource="/ch.uzh.business.systemanalyse.tool/icons"/>
+<resource_scope_roots resource_scope_root_resource="/ch.uzh.business.systemanalyse.tool/plugin.xml"/>
+<resource_scope_roots resource_scope_root_resource="/ch.uzh.business.systemanalyse.tool/src/ch/uzh/business/systemanalyse/tool"/>
+<resource_scope_roots resource_scope_root_resource="/ch.uzh.business.systemanalyse.tool/src/obsolete"/>
+</org.eclipse.team.ui.TEAMSUBSRCIBERSETTINGS>
+</data>
+</participant>
+</syncparticipants>

@@ -1,0 +1,43 @@
+!SESSION 2014-05-13 17:57:01.291 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_55
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product ch.uzh.business.systemanalyse.tool.licence.tool.product -clearPersistedState
+Command-line arguments:  -product ch.uzh.business.systemanalyse.tool.licence.tool.product -data C:\Users\krzysztof.dabkowski\Documents\1_Private\Praca\Dev\IBW\workspace 10.2013/../runtime-ch.uzh.business.systemanalyse.tool.licence.tool.product -dev file:C:/Users/krzysztof.dabkowski/Documents/1_Private/Praca/Dev/IBW/workspace 10.2013/.metadata/.plugins/org.eclipse.pde.core/ch.uzh.business.systemanalyse.tool.licence.tool.product/dev.properties -os win32 -ws win32 -arch x86 -consoleLog -clearPersistedState
+
+!ENTRY org.eclipse.equinox.app 0 0 2014-05-13 17:57:03.725
+!MESSAGE Product ch.uzh.business.systemanalyse.tool.licence.tool.product could not be found.
+
+!ENTRY org.eclipse.osgi 2 0 2014-05-13 17:57:03.797
+!MESSAGE One or more bundles are not resolved because the following root constraints are not resolved:
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-05-13 17:57:03.797
+!MESSAGE Bundle initial@reference:file:../../IBW/workspace 10.2013/ch.uzh.business.systemanalyse.tool.licence.tool/ was not resolved.
+!SUBENTRY 2 ch.uzh.business.systemanalyse.tool.licence.tool 2 0 2014-05-13 17:57:03.798
+!MESSAGE Missing imported package org.eclipse.ui.handlers_0.0.0.
+
+!ENTRY org.eclipse.osgi 2 0 2014-05-13 17:57:03.804
+!MESSAGE The following is a complete list of bundles which are not resolved, see the prior log entry for the root cause if it exists:
+!SUBENTRY 1 org.eclipse.osgi 2 0 2014-05-13 17:57:03.804
+!MESSAGE Bundle ch.uzh.business.systemanalyse.tool.licence.tool_1.0.0.qualifier [62] was not resolved.
+!SUBENTRY 2 ch.uzh.business.systemanalyse.tool.licence.tool 2 0 2014-05-13 17:57:03.805
+!MESSAGE Missing imported package org.eclipse.ui.handlers_0.0.0.
+
+!ENTRY org.eclipse.osgi 4 0 2014-05-13 17:57:03.809
+!MESSAGE Application error
+!STACK 1
+java.lang.RuntimeException: No application id has been found.
+	at org.eclipse.equinox.internal.app.EclipseAppContainer.startDefaultApp(EclipseAppContainer.java:242)
+	at org.eclipse.equinox.internal.app.MainApplicationLauncher.run(MainApplicationLauncher.java:29)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1426)

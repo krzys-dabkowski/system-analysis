@@ -1,0 +1,5 @@
+#NOTE: This is an internal implementation file, its format can be changed without prior notice.
+#Tue Jul 15 00:15:17 CEST 2014
+org.eclipse.jface-3.0.0.pom>remote-models=
+org.eclipse.jface-3.0.0-ovrm.zip>remote-models=
+org.eclipse.jface-3.0.0-call.zip>remote-models=

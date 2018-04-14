@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;ch.uzh.business.systemsanalyse.tool.apache.net.libs&apos;" deleteContents="true" description="Delete resource &apos;ch.uzh.business.systemsanalyse.tool.apache.net.libs&apos;" element1="/ch.uzh.business.systemsanalyse.tool.apache.net.libs" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1399445508219"/>
+</session>

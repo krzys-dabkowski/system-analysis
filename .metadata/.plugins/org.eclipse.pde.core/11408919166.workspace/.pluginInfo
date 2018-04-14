@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+	<bundle bundleID="759" localization="OSGI-INF/l10n/bundle" name="Licence Tool" project="ch.uzh.business.systemanalyse.tool.licence.tool" provider="Krzysztof Dabkowski"/>
+	<bundle bundleID="760" localization="OSGI-INF/l10n/bundle" name="Libs" project="ch.uzh.business.systemanalyse.tool.jxl.libs">
+		<library name="jxl.jar"/>
+	</bundle>
+	<bundle bundleID="761" localization="OSGI-INF/l10n/bundle" name="JFreeChart Libraries" project="ch.uzh.business.systemanalyse.tool.jfreechart.libs">
+		<library name="jcommon-1.0.16.jar"/>
+		<library name="jfreechart-1.0.13.jar"/>
+		<library name="jfreechart-1.0.13-experimental.jar"/>
+		<library name="jfreechart-1.0.13-swt.jar"/>
+		<library name="servlet.jar"/>
+		<library name="swtgraphics2d.jar"/>
+	</bundle>
+	<bundle bundleID="762" class="ch.uzh.business.systemanalyse.tool.Activator" localization="OSGI-INF/l10n/bundle" name="Executive System Analysis" project="ch.uzh.business.systemanalyse.tool" provider="University of Zurich"/>
+	<bundle bundleID="763" class="testplugins.Activator" localization="OSGI-INF/l10n/bundle" name="TestPlugins" project="TestPlugins"/>
+	<bundle bundleID="764" localization="OSGI-INF/l10n/bundle" name="Apache Net Libs" project="ch.uzh.business.systemsanalyse.tool.apache.net.libs">
+		<library name="commons-net-3.3.jar"/>
+	</bundle>
+</map>

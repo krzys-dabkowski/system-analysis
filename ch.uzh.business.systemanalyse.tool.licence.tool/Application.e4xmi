@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_kUd5ENqrEeOnhJUK-OX6tg" elementId="org.eclipse.e4.ide.application" bindingContexts="_kUd5GdqrEeOnhJUK-OX6tg">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_kUd5EdqrEeOnhJUK-OX6tg" label="ch.uzh.business.systemanalyse.tool.licence.tool" width="500" height="400">
+    <children xsi:type="advanced:PerspectiveStack" xmi:id="_kUegNNqrEeOnhJUK-OX6tg">
+      <children xsi:type="advanced:Perspective" xmi:id="_kUegNdqrEeOnhJUK-OX6tg">
+        <children xsi:type="basic:PartSashContainer" xmi:id="_kUegNtqrEeOnhJUK-OX6tg">
+          <children xsi:type="basic:PartStack" xmi:id="_kUfHMNqrEeOnhJUK-OX6tg">
+            <children xsi:type="basic:Part" xmi:id="_kUfHMdqrEeOnhJUK-OX6tg" contributionURI="bundleclass://ch.uzh.business.systemanalyse.tool.licence.tool/ch.uzh.business.systemanalyse.tool.licence.tool.parts.LicenceFileGeneration" label="Licence File Generation"/>
+          </children>
+        </children>
+      </children>
+    </children>
+    <mainMenu xmi:id="_kUegLdqrEeOnhJUK-OX6tg" elementId="menu:org.eclipse.ui.main.menu" visible="false">
+      <children xsi:type="menu:Menu" xmi:id="_kUegLtqrEeOnhJUK-OX6tg" visible="false" label="File">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_kUegL9qrEeOnhJUK-OX6tg" label="Open" iconURI="platform:/plugin/ch.uzh.business.systemanalyse.tool.licence.tool/icons/sample.png" command="_kUegJNqrEeOnhJUK-OX6tg"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_kUegMNqrEeOnhJUK-OX6tg" label="Save" iconURI="platform:/plugin/ch.uzh.business.systemanalyse.tool.licence.tool/icons/save_edit.png" command="_kUegJ9qrEeOnhJUK-OX6tg"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_kUegMdqrEeOnhJUK-OX6tg" label="Quit" command="_kUegINqrEeOnhJUK-OX6tg"/>
+      </children>
+      <children xsi:type="menu:Menu" xmi:id="_kUegMtqrEeOnhJUK-OX6tg" visible="false" label="Help">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_kUegM9qrEeOnhJUK-OX6tg" label="About" command="_kUegKtqrEeOnhJUK-OX6tg"/>
+      </children>
+    </mainMenu>
+    <trimBars xmi:id="_kUfHMtqrEeOnhJUK-OX6tg">
+      <children xsi:type="menu:ToolBar" xmi:id="_kUfHM9qrEeOnhJUK-OX6tg" elementId="toolbar:org.eclipse.ui.main.toolbar" visible="false">
+        <children xsi:type="menu:HandledToolItem" xmi:id="_kUfHNNqrEeOnhJUK-OX6tg" iconURI="platform:/plugin/ch.uzh.business.systemanalyse.tool.licence.tool/icons/sample.png" command="_kUegJNqrEeOnhJUK-OX6tg"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_kUfHNdqrEeOnhJUK-OX6tg" iconURI="platform:/plugin/ch.uzh.business.systemanalyse.tool.licence.tool/icons/save_edit.png" command="_kUegJ9qrEeOnhJUK-OX6tg"/>
+      </children>
+    </trimBars>
+  </children>
+  <handlers xmi:id="_kUegIdqrEeOnhJUK-OX6tg" elementId="ch.uzh.business.systemanalyse.tool.licence.tool.handler.quitCommand" contributionURI="bundleclass://ch.uzh.business.systemanalyse.tool.licence.tool/ch.uzh.business.systemanalyse.tool.licence.tool.handlers.QuitHandler" command="_kUegINqrEeOnhJUK-OX6tg"/>
+  <handlers xmi:id="_kUegJdqrEeOnhJUK-OX6tg" elementId="ch.uzh.business.systemanalyse.tool.licence.tool.handler.openCommand" contributionURI="bundleclass://ch.uzh.business.systemanalyse.tool.licence.tool/ch.uzh.business.systemanalyse.tool.licence.tool.handlers.OpenHandler" command="_kUegJNqrEeOnhJUK-OX6tg"/>
+  <handlers xmi:id="_kUegKNqrEeOnhJUK-OX6tg" elementId="ch.uzh.business.systemanalyse.tool.licence.tool.handler.saveCommand" contributionURI="bundleclass://ch.uzh.business.systemanalyse.tool.licence.tool/ch.uzh.business.systemanalyse.tool.licence.tool.handlers.SaveHandler" command="_kUegJ9qrEeOnhJUK-OX6tg"/>
+  <handlers xmi:id="_kUegK9qrEeOnhJUK-OX6tg" elementId="ch.uzh.business.systemanalyse.tool.licence.tool.handler.aboutCommand" contributionURI="bundleclass://ch.uzh.business.systemanalyse.tool.licence.tool/ch.uzh.business.systemanalyse.tool.licence.tool.handlers.AboutHandler" command="_kUegKtqrEeOnhJUK-OX6tg"/>
+  <bindingTables xmi:id="_kUegItqrEeOnhJUK-OX6tg" bindingContext="_kUd5GdqrEeOnhJUK-OX6tg">
+    <bindings xmi:id="_kUegI9qrEeOnhJUK-OX6tg" keySequence="M1+Q" command="_kUegINqrEeOnhJUK-OX6tg"/>
+    <bindings xmi:id="_kUegJtqrEeOnhJUK-OX6tg" keySequence="M1+O" command="_kUegJNqrEeOnhJUK-OX6tg"/>
+    <bindings xmi:id="_kUegKdqrEeOnhJUK-OX6tg" keySequence="M1+S" command="_kUegJ9qrEeOnhJUK-OX6tg"/>
+    <bindings xmi:id="_kUegLNqrEeOnhJUK-OX6tg" keySequence="M1+A" command="_kUegKtqrEeOnhJUK-OX6tg"/>
+  </bindingTables>
+  <rootContext xmi:id="_kUd5GdqrEeOnhJUK-OX6tg" elementId="org.eclipse.ui.contexts.dialogAndWindow" name="In Dialog and Windows">
+    <children xmi:id="_kUd5GtqrEeOnhJUK-OX6tg" elementId="org.eclipse.ui.contexts.window" name="In Windows"/>
+    <children xmi:id="_kUd5G9qrEeOnhJUK-OX6tg" elementId="org.eclipse.ui.contexts.dialog" name="In Dialogs"/>
+  </rootContext>
+  <commands xmi:id="_kUegINqrEeOnhJUK-OX6tg" elementId="org.eclipse.ui.file.exit" commandName="quitCommand"/>
+  <commands xmi:id="_kUegJNqrEeOnhJUK-OX6tg" elementId="ch.uzh.business.systemanalyse.tool.licence.tool.open" commandName="openCommand"/>
+  <commands xmi:id="_kUegJ9qrEeOnhJUK-OX6tg" elementId="org.eclipse.ui.file.save" commandName="saveCommand"/>
+  <commands xmi:id="_kUegKtqrEeOnhJUK-OX6tg" elementId="org.eclipse.ui.help.aboutAction" commandName="aboutCommand"/>
+  <addons xmi:id="_kUd5EtqrEeOnhJUK-OX6tg" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
+  <addons xmi:id="_kUd5E9qrEeOnhJUK-OX6tg" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
+  <addons xmi:id="_kUd5FNqrEeOnhJUK-OX6tg" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
+  <addons xmi:id="_kUd5FdqrEeOnhJUK-OX6tg" elementId="org.eclipse.e4.ui.workbench.commands.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.CommandProcessingAddon"/>
+  <addons xmi:id="_kUd5FtqrEeOnhJUK-OX6tg" elementId="org.eclipse.e4.ui.workbench.handler.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
+  <addons xmi:id="_kUd5F9qrEeOnhJUK-OX6tg" elementId="org.eclipse.e4.ui.workbench.contexts.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.ContextProcessingAddon"/>
+  <addons xmi:id="_kUd5GNqrEeOnhJUK-OX6tg" elementId="org.eclipse.e4.ui.workbench.bindings.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.swt/org.eclipse.e4.ui.workbench.swt.util.BindingProcessingAddon"/>
+</application:Application>

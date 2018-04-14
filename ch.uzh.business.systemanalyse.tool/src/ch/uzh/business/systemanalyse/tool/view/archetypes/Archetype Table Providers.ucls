@@ -1,0 +1,86 @@
+<class-diagram version="1.0.10" icons="true" automaticImage="PNG" always-add-relationships="true" generalizations="true" 
+  realizations="true" associations="true" dependencies="true" nesting-relationships="true">  
+  <class id="1" corner="BOTTOM_RIGHT" language="java" 
+    name="ch.uzh.business.systemanalyse.tool.view.archetypes.ModelProviderICLoop" 
+    project="ch.uzh.business.systemanalyse.tool" 
+    file="/ch.uzh.business.systemanalyse.tool/src/ch/uzh/business/systemanalyse/tool/view/archetypes/ModelProviderICLoop.java" 
+    binary="false">    
+    <position height="-1" width="-1" x="158" y="108"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="2" corner="BOTTOM_RIGHT" language="java" 
+    name="ch.uzh.business.systemanalyse.tool.view.archetypes.ModelProviderUCLoop" 
+    project="ch.uzh.business.systemanalyse.tool" 
+    file="/ch.uzh.business.systemanalyse.tool/src/ch/uzh/business/systemanalyse/tool/view/archetypes/ModelProviderUCLoop.java" 
+    binary="false">    
+    <position height="-1" width="-1" x="168" y="283"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="3" corner="BOTTOM_RIGHT" language="java" 
+    name="ch.uzh.business.systemanalyse.tool.view.archetypes.ModelProviderUCLoopOoC" 
+    project="ch.uzh.business.systemanalyse.tool" 
+    file="/ch.uzh.business.systemanalyse.tool/src/ch/uzh/business/systemanalyse/tool/view/archetypes/ModelProviderUCLoopOoC.java" 
+    binary="false">    
+    <position height="-1" width="-1" x="184" y="633"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="4" corner="BOTTOM_RIGHT" language="java" 
+    name="ch.uzh.business.systemanalyse.tool.view.archetypes.ModelProviderICLoopOoC" 
+    project="ch.uzh.business.systemanalyse.tool" 
+    file="/ch.uzh.business.systemanalyse.tool/src/ch/uzh/business/systemanalyse/tool/view/archetypes/ModelProviderICLoopOoC.java" 
+    binary="false">    
+    <position height="-1" width="-1" x="171" y="461"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="5" corner="BOTTOM_RIGHT" language="java" 
+    name="ch.uzh.business.systemanalyse.tool.view.archetypes.LabelProviderLoopTableOoC" 
+    project="ch.uzh.business.systemanalyse.tool" 
+    file="/ch.uzh.business.systemanalyse.tool/src/ch/uzh/business/systemanalyse/tool/view/archetypes/LabelProviderLoopTableOoC.java" 
+    binary="false">    
+    <position height="-1" width="-1" x="474" y="256"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="6" corner="BOTTOM_RIGHT" language="java" 
+    name="ch.uzh.business.systemanalyse.tool.view.archetypes.LabelProviderLoopTable" 
+    project="ch.uzh.business.systemanalyse.tool" 
+    file="/ch.uzh.business.systemanalyse.tool/src/ch/uzh/business/systemanalyse/tool/view/archetypes/LabelProviderLoopTable.java" 
+    binary="false">    
+    <position height="-1" width="-1" x="474" y="370"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="7" corner="BOTTOM_RIGHT" language="java" 
+    name="ch.uzh.business.systemanalyse.tool.view.archetypes.ContentProviderLoopTable" 
+    project="ch.uzh.business.systemanalyse.tool" 
+    file="/ch.uzh.business.systemanalyse.tool/src/ch/uzh/business/systemanalyse/tool/view/archetypes/ContentProviderLoopTable.java" 
+    binary="false">    
+    <position height="-1" width="-1" x="477" y="91"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+    visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true"/>    
+    <operations public="true" package="true" protected="true" private="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
